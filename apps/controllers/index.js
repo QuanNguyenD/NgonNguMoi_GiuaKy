@@ -12,8 +12,8 @@ router.get(["/", "/index.html"], function (req, res) {
     res.render("index.ejs");
 });
 
-router.get(["/admin", "/admin/index.html"], function (req, res) {
-    //res.json({"message": "this is index page"});
-    res.render("index.html");
-});
+// router.get(["/admin", "/admin/index.html"], function (req, res) {
+//     //res.json({"message": "this is index page"});
+//     res.render("/admin/index.html");
+// });
 module.exports = router;
